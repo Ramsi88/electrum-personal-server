@@ -4,6 +4,9 @@ config.ini*
 .cache/
 .pytest_cache/
 certs
+certs/*
+*/certs
+electrumpersonalserver/certs/*
 build
 *.egg-info/
 lib/__pycache__/
