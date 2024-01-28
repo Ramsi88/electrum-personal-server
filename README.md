@@ -69,7 +69,7 @@ which bitcoin addresses they are interested in.
   `--server localhost:50002:s`. To avoid accidentally connecting to public
   electrum servers, also use the command line argument `--offline`.
 
-- Download the [latest release](https://github.com/chris-belcher/electrum-personal-server/releases)
+- Download the [latest release](https://github.com/Ramsi88/electrum-personal-server/releases)
   of Electrum Personal Server. If using Windows OS take the packaged binary
   release build `electrumpersonalserver-windows-release-XXX.zip`.
 
@@ -129,7 +129,7 @@ rebroadcasting transactions without tor.
 
 ### Quick start on a Debian/Ubuntu machine with a running Bitcoin full node
 
-1. Download the [latest release](https://github.com/chris-belcher/electrum-personal-server/releases)
+1. Download the [latest release](https://github.com/Ramsi88/electrum-personal-server/releases)
    of Electrum Personal Server. (Not the Windows version, the "Source code" zip or
    tar.gz.)
 1. Extract the compressed file

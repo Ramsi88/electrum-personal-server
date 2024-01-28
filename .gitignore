@@ -3,3 +3,7 @@
 config.ini*
 .cache/
 .pytest_cache/
+certs
+build
+*.egg-info/
+lib/__pycache__/

@@ -82,8 +82,8 @@ def create_server_socket(hostport):
     server_sock.bind(hostport)
     server_sock.listen(1)
     logger.info("Listening for Electrum Wallet on " + str(hostport) + "\n\n"
-        + "If this project is valuable to you please consider donating:\n\t"
-        + DONATION_ADDR)
+        + "RMS EPS Fork of Electrum Personal Server:\n\t"
+        + "fingerprint: 9EAB509A36EBA85399C3C22C9D40636ACA0D27CC") #DONATION_ADDR
     return server_sock
 
 def run_electrum_server(rpc, txmonitor, config):
